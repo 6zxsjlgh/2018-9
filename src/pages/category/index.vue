@@ -29,8 +29,8 @@ export default {
     myheader
   },
   // 内容 
-  onLoad(){
-    console.log('分页')
+  onLoad(evev){
+    console.log(evev+'分页')
     // tool.thenAjax({
     //   url:"api/public/v1/categories",
     // }).then(res=>{
@@ -41,6 +41,6 @@ export default {
 
 </script>
 
-<style scog lang="less">
+<style lang="less">
 
 </style>

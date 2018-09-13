@@ -22,15 +22,15 @@ import { SEMVER_SPEC_VERSION } from 'semver/index.js';
 export default {
   data:function () {
   return{
-
+   
   }
     },
   components:{
     myheader
   },
   // 内容 
-  onLoad(evev){
-    console.log(evev+'分页')
+  onLoad(){
+     console.log("二页面")
     // tool.thenAjax({
     //   url:"api/public/v1/categories",
     // }).then(res=>{
